@@ -1,6 +1,6 @@
 import {FC} from 'react';
 import {IPost} from "@/interfaces/postInterface";
-import {Post} from "@/app/(main-layout)/users/[id]/posts/Post";
+import {Post} from "@/app/(main-layout)/users/[id]/posts/components/Post";
 
 interface IProps {
     posts: IPost[]
